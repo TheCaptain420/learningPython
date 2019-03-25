@@ -29,3 +29,16 @@ person2 = Person("Heinz", "also a person")
 print ("hello "+  person1.getName()+" you are "+ person1.getDisc());
 printAPerson(person2); 
 print (person1.age) 
+
+#how to imports
+
+from importable import printRap,takeInput;
+
+printRap("yellow");
+takeInput();
+
+#how to import from whole file.
+import importableWhole as imported;
+
+imported.printSom("something");
+imported.printOther();
