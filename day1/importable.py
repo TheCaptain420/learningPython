@@ -5,5 +5,5 @@ def takeInput():
     short = raw_input("Enter something: ");
     print ("You just typed " + short);
     
-#git test
+#git test 2
     
